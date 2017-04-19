@@ -594,7 +594,16 @@ b, strong { font-weight: bold; }
 
 	#header .logo-wrap h1 {
 		font-size: 38pt;
+		
 	}
+
+	@media screen and (max-width: 767px) { 
+		#header .logo-wrap h1 {
+			line-height: 72px;
+		}
+	}
+
+
 
 
 
