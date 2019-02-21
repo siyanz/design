@@ -19,6 +19,7 @@
 		3.7. Archive (Blog)
 		3.8. Contact
 		3.9. Footer
+	3-2. Posts
 	4. jQuery Plugins
 		4.1. iosSlider
 		4.2. Flexslider
@@ -26,14 +27,16 @@
 
 --------------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Economica:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i,700,700i,900,900i');
+
 /*--------------------------------------------------------------------------
 	1. Body
 --------------------------------------------------------------------------*/
 
 body {
 	color: #111;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
 	/* Fix for webkit rendering */
@@ -42,8 +45,8 @@ body {
 
 @media screen and (max-width: 767px) {
 	body {
-		font-size: 12px;
-		line-height: 23px;
+		font-size: 14px;
+		line-height: 24px;
 	}
 }
 
@@ -58,8 +61,8 @@ body {
 
 /* Headings */
 h1,
-h2,
-h3,
+h2 { font-weight: bold; font-size: 18px;}
+h3 {font-style: italic; font-weight: 600; color: #555; font-size: 14px;}
 h4,
 h5,
 h6 { font-weight: bold; }
@@ -165,7 +168,6 @@ b, strong { font-weight: bold; }
 
 	/* Featured image */
 	.post img.featured { margin-bottom: 50px; }
-
 
 
 	/* Buttons */
@@ -596,7 +598,12 @@ b, strong { font-weight: bold; }
 
 	#header .logo-wrap { padding: 50px 30px; 50px 0; }
 
-	#header .logo-wrap #blurb {padding-left: 10%;}
+	#header .logo-wrap #blurb {
+		padding-left: 10%;}
+
+	#header .logo-wrap #blurb h1{
+			font-family: 'Economica', sans-serif;
+	}
 
 	#header h1 {
 		font-size: 24px;
@@ -1237,6 +1244,8 @@ b, strong { font-weight: bold; }
 	---------------------------------------------------*/
 
 	#archive .entry { margin-bottom: 80px; }
+
+
 	#archive .entry .box-content { padding-top: 30px; }
 
 
@@ -1464,7 +1473,12 @@ b, strong { font-weight: bold; }
 		}
 
 
-
+/*--------------------------------------------------------------------------
+	3-2. Posts
+--------------------------------------------------------------------------*/
+/* Post Description */
+.post .entry {padding-top: 4px;}
+.post .entry p { width: 40% }
 
 
 /*--------------------------------------------------------------------------
