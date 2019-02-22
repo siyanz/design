@@ -2,15 +2,18 @@
 layout: default
 ---
 
+<div id="outer-div-center">
+  <div id="inner-div-center">
+    <img src="/images/{{ page.folder }}/preview.png" alt="" />
+  </div>
+</div>
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
   </div>
-
-
-
 
   <!-- {% include disqus.html %} -->
 </article>

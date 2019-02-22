@@ -1480,6 +1480,53 @@ b, strong { font-weight: bold; }
 .post .entry {padding-top: 4px;}
 .post .entry p { width: 40% }
 
+#outer-div-center {
+	padding-bottom: 30px;
+}
+
+#inner-div-center{
+	margin: 0 auto;
+	width: 25%;
+}
+
+@media screen and (max-width: 767px) {
+	.post .entry p { width: 100% }
+
+	#inner-div-center{
+		width: 80%;
+	}
+}
+
+/* Image displays inside posts */
+.img_row{
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  box-sizing:border-box;
+  line-height: 0em;
+  a {
+    //display: inline-block;
+  }
+}
+
+.col {
+width: 100%;
+height: 100%;
+float: left;
+object-fit: cover;
+box-sizing:border-box;
+/* padding: 10px; */
+padding-top: 20px;
+}
+.one {
+width:33.33%;
+}
+.two {
+width: 66.66%;
+}
+.three{
+width: 100%;
+}
 
 /*--------------------------------------------------------------------------
 	4. jQuery Plugins
