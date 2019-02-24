@@ -1,10 +1,10 @@
 ---
 layout: post
 title: FeelCraft
-category: Design
+category: Logo Design
 folder: feelcraft
 ---
-### Branding
+### Logo Design
 FeelCraft is a software tool to add touch-based feedback to media content, such as the popular sandbox game Minecraft.
 
 {% include img/one.html
