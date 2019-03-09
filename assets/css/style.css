@@ -423,19 +423,63 @@ b, strong { font-weight: bold; }
 	/*---------------------------------------------------
 			3.1 Navigation
 	---------------------------------------------------*/
+	#logo-div {
+		padding: 20px 20px 10px 20px;
+		float: left;
+	}
+
+	.logo-text {
+		font-family: 'Economica', sans-serif;
+		float: left;
+		margin-left: 22px;
+		line-height: 55px;
+	}
+
+	.logo-text h2 {
+		font-size: 27px;
+		font-weight: 100;
+	}
+
 	#logo {
 		  width: 70px;
-		  padding: 20px 0px 10px 20px;
+			float: left;
+	}
+
+	#logo-home{
+		  width: 70px;
 			float: left;
 	}
 
 	@media screen and (max-width: 767px) {
 		#logo{
-			float: none;
 			margin: auto;
-			padding-top: 40px;
 			padding-left: 0px;
+			width: 50px;
 		}
+
+		.logo-text {
+			margin-left: 12px;
+			line-height: 40px;
+		}
+
+		.logo-text h2 {
+			font-size: 21px;
+			font-weight: 100;
+		}
+
+		#logo-text-home {
+			display: none;
+		}
+
+		#logo-div{
+				float: none;
+		}
+
+		#logo-home {
+			margin: 0 auto;
+			float: none;
+		}
+
 	}
 
 	ul#nav {
@@ -764,6 +808,9 @@ b, strong { font-weight: bold; }
 	/*---------------------------------------------------
 			3.5 Works
 	---------------------------------------------------*/
+	#works .container {
+		padding-top: 50px;
+	}
 
 	#works .item { margin-bottom: 40px; }
 
