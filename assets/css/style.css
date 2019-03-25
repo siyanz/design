@@ -431,12 +431,12 @@ b, strong { font-weight: bold; }
 	.logo-text {
 		font-family: 'Economica', sans-serif;
 		float: left;
-		margin-left: 22px;
+		margin-left: 15px;
 		line-height: 55px;
 	}
 
 	.logo-text h2 {
-		font-size: 27px;
+		font-size: 20px;
 		font-weight: 100;
 	}
 
@@ -1524,8 +1524,17 @@ b, strong { font-weight: bold; }
 	3-2. Posts
 --------------------------------------------------------------------------*/
 /* Post Description */
+.post h1 {text-align: center;}
 .post .entry {padding-top: 4px;}
-.post .entry p { width: 40% }
+.post .entry p {
+	width: 50%;
+ 	text-align: center;
+	margin: 0 auto;
+}
+
+.post .entry h3 {
+ 	text-align: center;
+}
 
 #outer-div-center {
 	padding-bottom: 30px;
@@ -1533,7 +1542,7 @@ b, strong { font-weight: bold; }
 
 #inner-div-center{
 	margin: 0 auto;
-	width: 25%;
+	width: 15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1546,6 +1555,7 @@ b, strong { font-weight: bold; }
 
 /* Image displays inside posts */
 .img_row{
+	padding-top: 40px;
   height: auto;
   width: 100%;
   display: inline-block;
