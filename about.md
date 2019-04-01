@@ -1,15 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Hello!
+permalink: /about.html
 ---
+My name is Siyan Zhao and I am a visual designer based in Pittsburgh, PA. I specialize in illustration and branding design. My mission is to help clients materialize ideas to designs. Through explorations and iterations, I aim to find the best-fitted designs for clients' needs.
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+For work and related inquiries: hi@siyanDesign.com
