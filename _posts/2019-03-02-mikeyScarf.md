@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Mickey and the Scarf
+title: Mikey and the Scarf
 category: Illustration, Print
-folder: mickeyScarf
+folder: mikeyScarf
 ---
 ### Illustration | Print
 An illustrated book in a children's book style, bounded by hand with love.

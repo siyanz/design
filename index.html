@@ -2,8 +2,7 @@
 layout: default
 tagline:
 ---
-{% for category in site.categories %}
-  {% for post in category.last %}
+{% for post in site.posts %}
     <a href="{{ post.url }}" class="permalink">
       <div class="desktop-4 mobile-full columns">
         <div class="item first-row">
@@ -14,6 +13,5 @@ tagline:
         </div><!-- // .item -->
       </div><!-- // .desktop-3 -->
     </a>
-  {% endfor %}
 {% endfor %}
 <div class="clear"></div>
