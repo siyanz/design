@@ -2,7 +2,7 @@
 <div class="img_row">
   <div id="outer-div-center">
     <div id="inner-div-center">
-      <img width="100%" src="{{ '/images/'| append: include.folder | append: '/'| append: include.img1}}" />
+      <img width="100%" src="{{ site.baseurl | prepend:site.url }}/{{ '/images/'| append: include.folder | append: '/'| append: include.img1}}" />
     </div>
   </div>
 </div>

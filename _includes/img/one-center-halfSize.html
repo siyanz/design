@@ -1,6 +1,6 @@
 
 <div class="img_row">
   <div class="col three text-align-center">
-      <img class="fifth-five" width="100%" src="{{ '/images/'| append: include.folder | append: '/'| append: include.img1}}" />
+      <img class="fifth-five" width="100%" src="{{ site.baseurl | prepend:site.url }}/{{ '/images/'| append: include.folder | append: '/'| append: include.img1}}" />
   </div>
 </div>

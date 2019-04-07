@@ -3,7 +3,7 @@ layout: default
 tagline:
 ---
 {% for post in site.posts %}
-    <a href="{{ post.url }}" class="permalink">
+    <a href="{{ site.baseurl | prepend:site.url }}/{{ post.url }}" class="permalink">
       <div class="desktop-4 mobile-full columns">
         <div class="item first-row">
           <h3>{{ post.title }}</h3>
