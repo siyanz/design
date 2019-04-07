@@ -510,7 +510,7 @@ b, strong { font-weight: bold; }
 		font-weight: bold;
 		overflow: visible;
 		float: right;
-		padding-top: 5px;
+		padding-top: 23px;
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 959px) {
@@ -535,46 +535,31 @@ b, strong { font-weight: bold; }
 	ul#nav > li {
 		zoom: 1;
 		/* width: 25%; */
+		/* font-weight: normal; */
 		display: inline;
 		float: left;
-		padding-right: 80px;
-		border-bottom: 1px solid #e1e1e1;
+		padding: 0 30px;
+		/* border-bottom: 1px solid #e1e1e1; */
 	}
 
 		ul#nav > li a {
 			color: #999;
 			display: block;
-			padding: 12px 0 12px 0;
+			padding: 12px 0 0 0;
 			margin: 0 20px;
+			transition: color 0.2s, border 0.1s;
+			-webkit-ransition: color 0.2s, border 0.1s;
 		}
 
-			ul#nav > li a span.count {
-				color: #ccc;
-				display: block;
-				font-size: 11px;
-			}
 
-		ul#nav > li a:hover {
-			color: white;
-			border-bottom: none;
+		ul#nav > li a:hover,
+		ul#nav > li a.hover {
+			color: #111;
+			border-bottom: #111 1px solid;
+			transition: color 0.2s, border 0.1s;
+			-webkit-ransition: color 0.2s, border 0.1s;
+
 		}
-
-			ul#nav > li a:hover span.count { color: white; }
-
-	ul#nav > li:hover,
-	ul#nav > li.hover {
-		background: #111;
-		margin: 0;
-	}
-
-		ul#nav > li:hover a,
-		ul#nav > li.hover a {
-			color: white;
-			border-bottom: none;
-		}
-
-			ul#nav > li:hover a span.count,
-			ul#nav > li.hover a span.count { color: white; }
 
 		ul#nav > li:hover ul li:last-child > a,
 		ul#nav > li.hover ul li:last-child > a,
@@ -844,7 +829,11 @@ b, strong { font-weight: bold; }
 			font-weight: bold;
 		}
 
-		#works a.permalink:hover h3 { color: #111; }
+		#works a.permalink:hover h3 {
+			color: #111;
+			transition: color 0.2s;
+			-webkit-transition: color 0.2s;
+		}
 
 	#works .item span.category {
 		color: #ccc;
@@ -852,6 +841,8 @@ b, strong { font-weight: bold; }
 		font-size: 12px;
 		line-height: 18px;
 		margin-bottom: 10px;
+		transition: color 0.2s;
+		-webkit-transition: color 0.2s;
 	}
 
 		#works a.permalink:hover span.category { color: #333; }
@@ -1617,8 +1608,8 @@ padding-top: 20px;
 	width: 50%;
 }
 
-.sixty {
-	width: 60%;
+.fifth-five {
+	width: 55%;
 }
 
 .text-align-center {
