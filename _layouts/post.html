@@ -14,7 +14,7 @@ layout: content
 
 <div id="outer-div-center">
   <div id="inner-div-center">
-    <img src="/images/{{ page.folder }}/preview.png" alt="" />
+    <img src="{{ site.baseurl | prepend:site.url }}/images/{{ page.folder }}/preview.png" alt="" />
   </div>
 </div>
 
@@ -30,5 +30,5 @@ layout: content
 
 
 <section id="post-nav">
-  <a href="{{ site.baseurl }}/">&larr; See more work</a>
+  <a href="{{ site.baseurl | prepend:site.url }}/">&larr; See more work</a>
 </section>

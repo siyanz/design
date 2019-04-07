@@ -9,7 +9,7 @@ tagline:
           <h3>{{ post.title }}</h3>
           <span class="category">{{ post.category }}</span>
 
-          <img src="images/{{ post.folder }}/preview.png" alt="" />
+          <img src="{{ site.baseurl | prepend:site.url }}/images/{{ post.folder }}/preview.png" alt="" />
         </div><!-- // .item -->
       </div><!-- // .desktop-3 -->
     </a>

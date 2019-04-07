@@ -18,9 +18,9 @@
   <link rel="stylesheet/less" type="text/css" href="css/style.less" />
   ================================================== -->
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/typegrid.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl | prepend:site.url }}/assets/css/typegrid.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl | prepend:site.url }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend:site.url }}/assets/css/all.css" rel="stylesheet">
 
 
   <!--[if lt IE 8]>
@@ -35,8 +35,8 @@
 
   <!-- Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="{{ site.baseurl | prepend:site.url }}/images/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ site.baseurl | prepend:site.url }}/images/apple-touch-icon.png">
 
 </head>
 
@@ -55,9 +55,9 @@
     <div class="topbar">
       <div class="container">
         <div id="logo-div">
-          <a href="{{ site.baseurl }}/">
+          <a href="{{ site.baseurl | prepend:site.url }}/">
           <div id="logo">
-              <img src="{{ site.baseurl }}/assets/images/SZ_logo.png"/>
+              <img src="{{ site.baseurl | prepend:site.url }}/assets/images/SZ_logo.png"/>
           </div>
 
           <div class="logo-text">
@@ -72,18 +72,18 @@
         -->
         <ul id="nav">
           <li>
-            <a href="{{ site.baseurl }}/">
+            <a href="{{ site.baseurl | prepend:site.url }}/">
               WORKS
             </a>
           </li>
           <li>
-            <a href="{{ site.baseurl }}/about.html">
+            <a href="{{ site.baseurl | prepend:site.url }}/about.html">
               ABOUT ME
             </a>
           </li>
 
           <li>
-            <a href="{{ site.baseurl }}/testimonials.html">
+            <a href="{{ site.baseurl | prepend:site.url }}/testimonials.html">
               TESTIMONIALS
             </a>
           </li>
@@ -137,12 +137,12 @@
     Use jQuery 1.8 until Flexslider 2.2 stable version is released
   -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/jQuery.BlackAndWhite.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/less-1.4.0.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/jquery.typeMenu.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/jquery.typeSticky.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/jquery.custom.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/jQuery.BlackAndWhite.min.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/modernizr.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/less-1.4.0.min.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/jquery.typeMenu.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/jquery.typeSticky.js"></script>
+  <script src="{{ site.baseurl | prepend:site.url }}/assets/js/jquery.custom.js"></script>
 
   {% include analytics.html %}
 
