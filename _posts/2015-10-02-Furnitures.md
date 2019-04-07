@@ -5,7 +5,7 @@ category: Illustration
 folder: furniture
 ---
 ### Illustration
-Work for a design competition, themed Italy.
+Cozy furniture icons. 
 
  {% include img/one.html
    folder=page.folder
