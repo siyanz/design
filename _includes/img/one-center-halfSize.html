@@ -1,6 +1,12 @@
 
 <div class="img_row">
   <div class="col three text-align-center">
+    {% if include.full_img %}
+    <a href="{{ site.baseurl | prepend:site.url }}/{{ '/images/'| append: include.folder | append: '/'| append: include.full_img}}" target="_blank">
+    {% endif %}
       <img class="fifth-five" width="100%" src="{{ site.baseurl | prepend:site.url }}/{{ '/images/'| append: include.folder | append: '/'| append: include.img1}}" />
+    {% if include.full_img %}
+    </a>
+    {% endif %}
   </div>
 </div>
