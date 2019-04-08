@@ -5,4 +5,4 @@ category: Illustration, Print
 folder: mikeyScarf
 ---
 ### Illustration | Print
-An illustrated book in a children's book style, bounded by hand with love.
+An illustrated book in a children's book style, bounded by hand with love. Full content coming soon.

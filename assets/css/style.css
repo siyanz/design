@@ -1572,7 +1572,7 @@ b, strong { font-weight: bold; }
 }
 
 /* Image displays inside posts */
-.img_row{
+.img_row {
 	padding-top: 40px;
   height: auto;
   width: 100%;
@@ -1593,6 +1593,11 @@ box-sizing:border-box;
 /* padding: 10px; */
 padding-top: 20px;
 }
+
+.img_row_title {
+	font-size: 24px;
+}
+
 .one {
 	width:33.33%;
 }
@@ -1614,6 +1619,32 @@ padding-top: 20px;
 
 .text-align-center {
 	text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	.one {
+		width:33.33%;
+	}
+
+	.two {
+		width: 66.66%;
+	}
+
+	.three{
+		width: 100%;
+	}
+	.half {
+		width: 50%;
+	}
+
+	.fifth-five {
+		width: 100%;
+	}
+
+	.img_row_title {
+		font-size: 16px;
+	}
+
 }
 
 /* Post Navigation */
